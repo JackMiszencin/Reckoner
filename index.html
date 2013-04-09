@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reckoner: Background and Insight on Today's News</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link rel="icon" sizes="16 16" href="icon.bmp" />
+	<script language="javascript" src="script.js"></script>
+	<script src="jquery-1.8.3.js"></script>
+	<script src="jquery-ui-1.9.2.custom.js"></script>
+</head>
+<body>
+	<div id="titleLine">
+		<h1>Reckoner</h1>
+		<p>Background and Insight on Today's News</p>
+	</div>
+	<div id="menu">
+		<div class="menuItem" id="home" onclick="window.location='index.html'">
+			<div class="menuBG" onclick="window.location='index.html'"></div><span>HOME</span>
+		</div>
+		<div class="menuItem" id="about" onclick="window.location='about.html'">
+			<div class="menuBG" onclick="window.location='about.html'"></div><span>ABOUT</span>
+		</div>
+		<div class="menuItem" id="find" onclick="window.location='browse.html'">
+			<div class="menuBG" onclick="window.location='browse.html'"></div><span>BROWSE BY SUBJECT</span>
+				<div id="findExtension" style="display: none;">
+					<div class="menuItem" id="browseMidEast" onclick="window.location='browse/MidEast.html'">
+						<div class="menuBG" onclick="window.location='browse/MidEast.html'"></div><span>MIDDLE EAST</span>
+					</div>
+					<div class="menuItem" id="browseEconomics" onclick="window.location='browse/Economics.html'">
+						<div class="menuBG" onclick="window.location='browse/Economics.html'"></div><span>ECONOMICS</span>
+					</div>	
+					<div class="menuItem" id="browseUS" onclick="window.location='browse/US.html'">
+						<div class="menuBG" onclick="window.location='browse.html'"></div><span>US NEWS</span>
+					</div>
+					<div class="menuItem" id="browseWorld" onclick="window.location='browse/World.html'">
+						<div class="menuBG" onclick="window.location='browse/World.html'"></div><span>WORLD NEWS</span>
+					</div>	
+				</div>
+		</div>
+		<div class="menuItem" id="subscribe" onclick="window.location='subscribe.html'">
+			<div class="menuBG" onclick="window.location='subscribe.html'"></div><span>SUBSCRIBE</span>
+		</div>
+	</div> 
+<!-- END OF THE MENU DIV -->
+
+	<div class="front">
+		<div class="bg"></div>
+		<h2>TODAY'S LATEST:</h2>
+		<a href="articles/Syria_01_14_12.html"><h1>WHY SYRIA MATTERS</h1></a>
+		<img src="protester.jpg" cite="http://www.istockphoto.com/stock-photo-18574061-syria-protest.php" 
+			title="A Syrian protester in Turkey. Courtesy of iStockPhoto, uploaded by sadikgulec."
+			alt="A Syrian protester in Turkey."></img>
+		<p>For two years, now, we've seen the bloodshed on television while policymakers argue over what to do.
+			A confluence of fragile regional politics, growing Islamist fervor and lack of political will
+			has made the US unwilling to respond. But, even with all the debate over intervention, why 
+			exactly is the fate of Syria so important for our country? We have an explanation.
+			(Well, several, actually.)
+			<br><br><br><a class="pageLink" href="articles/Syria_01_14_12.html">[Read the Article]</a>
+			<span style="line-height: 50%"><br><br></span><a class="pageLink" href="background/Syrian_Uprising.html">[Background Report: Syrian Uprising]</a>
+		</p>
+		
+	</div>
+	<div id="previewHolder">
+		<div id="previewBG"></div>
+		<h2>OTHER RECENT ARTICLES AND REPORTS FROM RECKONER</h2>
+		<div id="accordion">
+			<div class="accordionHolder"><div class="accordionHead"><div class="expandArrow">&gt;</div><h3>Fracking and the Future of Energy</h3></div>
+				<div class="subContent">
+					<img src="gasFlame.gif" align="left" alt="Natural gas symbol">
+					<p>We investigate the potential economic benefits (and environmental consequences)
+						of "fracking," the new technique being used to harness America's natural gas
+						resources.
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="articles/Fracking_01_14_12.html">[Read the Article]</a>
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="background/Shale_Gas.html">[Background Report: Shale Gas]</a>
+
+					</p>
+
+				</div>
+			</div>
+			<div class="accordionHolder"><div class="accordionHead"><div class="expandArrow">&gt;</div><h3>Guns in America</h3></div>
+				<div class="subContent">
+					<img src="ammo.jpg" align="left" alt="Ammunition"></img>
+					<p>In the aftermath of the Newtown shootings, we look at the reasons behind such shootings
+						and the effectiveness of gun control laws.
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="articles/Guns_01_14_12.html">[Read the Article]</a>
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="background/Assault_Rifles.html">[Background Report: What Exactly is an Assault Rifle?]</a>
+
+					</p>
+				</div>
+			</div>
+			<div class="accordionHolder"><div class="accordionHead"><div class="expandArrow">&gt;</div><h3>Foreign Aid</h3></div>
+				<div class="subContent">
+					<img src="usaid.jpg" alt="USAID Logo" align="left"></img>
+					<p>Calls to cut aid to developing countries have created fear in the diplomatic community,
+						especially considering its already small share of the Federal budget. But is it 
+						really that bad an idea to stop giving money to often corrupt governments?
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="articles/Foreign_Aid_01_14_12.html">[Read the Article]</a>
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="background/Foreign_Aid.html">[Background Report: Where Does Foreign Aid Money Go?]</a>
+					</p>
+				</div>
+			</div>
+			<div class="accordionHolder"><div class="accordionHead"><div class="expandArrow">&gt;</div><h3>Why Our Tax Code Fails</h3></div>
+				<div class="subContent">
+					<img src="TaxCode.jpg" cite="http://commons.wikimedia.org/wiki/File%3ATaxCode.jpg" title="By Morphh at en.wikipedia [Public domain], from Wikimedia Commons" alt="Tax Code" align="left"></img>
+					<p>It has become widely accepted that the United States' tax code is one of the most inefficient
+						in the developed world. We show how it fails and discuss several ways our legislators
+						might decide to fix it.
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="articles/Tax_Code_01_14_12.html">[Read the Article]</a>
+						<span style="line-height: 50%"><br><br></span><a class="pageLink" href="background/Taxes.html">[Background Report: Tax Rates (and Deductions) through History]</a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
